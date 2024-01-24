@@ -1,0 +1,71 @@
+#canvas
+{
+text-align:center;
+background-color: burlywood;
+
+}
+
+canvas{
+  margin: 20px;
+}
+#canvas h1
+{
+  margin: 0;
+}
+
+#canvasClr
+{
+
+  display: block;
+  margin: auto;
+}
+
+#getMap , #getInfo{
+  width: 80px;
+  height: 40px;
+  margin:20px;
+  font-size: large;
+  color: bisque;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+
+#container
+{
+  text-align: center;
+  padding: 20px;
+  background-color: brown;
+}
+
+#map
+{
+  margin: auto;
+  width: 500px;
+  height: 400px;
+}
+
+#Info{
+  display: none;
+}
+
+p
+{
+  font-size: large;
+  font-weight: bold;
+}
+p span
+{
+   font-size: large;
+   color: cornflowerblue;
+   font-weight: bold;
+}
+
+html,
+body 
+{
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+

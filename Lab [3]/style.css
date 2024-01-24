@@ -1,0 +1,131 @@
+div
+{
+    display: block;
+}
+
+/* Qustion [1] */
+#player1{
+    width: 200px;
+    height: 400px;
+   position: absolute;
+   left: 700px;
+   transform: rotateY(180deg);
+}
+
+#player2{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    left: -20px;
+    transform: rotateY(180deg);
+}
+
+#grass{
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top:295px;
+    left: 130px;
+}
+
+#ball{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:295px;
+    left: 100px;
+    animation: pass 4s infinite linear , rotate 2s infinite linear;
+
+}
+
+
+@keyframes pass {
+    0% {
+        left: 60px;
+      }
+      50% {
+        left: 650px;
+      }
+      100% {
+        left: 60px;
+      }
+
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {  
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+/* Question [2] */
+
+#bicycle{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 510px;
+    left: 0;
+    transition: transform 0.5s linear;
+}
+
+
+@keyframes cycling {
+    0% {
+        left: 0;
+      }
+      50% {
+        left: calc(100% - 300px);
+      }
+      100% {
+        left: 0;
+      }
+}
+
+@keyframes rotate1 {
+    0%{
+        transform: rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(180deg);
+    }
+    
+}
+
+@keyframes rotate2 {
+    0%{
+        transform: rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(180deg);
+    }
+    
+}
+
+/* //////////////////////////////////////////////////// */
+
+
+#container
+{
+    position: absolute;
+    top: 800px;
+    left: 500px;
+}
+
+#filteredPhoto
+{
+    display: block;
+    position: relative;
+}
+
+button 
+{
+    margin: 100px 20px 100px 20px;
+}

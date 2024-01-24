@@ -1,0 +1,49 @@
+audio{
+    display: block;
+    margin:auto;
+    
+}
+
+
+#Q3 button{
+margin: auto;
+margin-top: 20px;
+border-radius:10px ;
+
+}
+
+#Q3 input{
+display: block;
+margin: auto;
+margin-top: 20px;
+}
+
+#Q1{
+    padding: 50px;
+    text-align: center;
+    background-color: coral;
+}
+
+
+#Q2
+{
+    padding: 50px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+
+#Q3
+{
+    padding: 50px;
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+
+
+#Q4
+{
+    padding: 50px;
+    text-align: center;
+    background-color: brown;
+}

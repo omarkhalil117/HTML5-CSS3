@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <!-- Validations  -->
+    <div id="Q1">
+        <h1>Question [1]</h1>
+        <h1>Change Email Address</h1>
+
+        <form >
+            <input type="text" placeholder="User Name" required pattern="[a-zA-Z]{8}" title="please put at least 10 charachters">
+            <input type="email" placeholder="Email" required title="wrong email email sould be ****@gmail.com" 
+            pattern="[a-zA-Z]{5,10}@(gmail|hotmail|outlook).com">
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+
+
+    <div id="Q2">
+        <h1>Question [2]</h1>
+
+        <p>Red</p>
+        <input type="range" min="0" max="255" step="1" value="0" id="RedClr" >
+
+        <p>Green</p>
+        <input type="range" min="0" max="255" step="1" value="0" id="GreenClr" >
+
+        <p>Blue</p>
+        <input type="range" min="0" max="255" step="1" value="0" id="BlueClr" >
+
+        <h3 id="textToChange"> Change my color</h3>
+    </div>
+
+
+    <div id="Q3">
+
+        <h1>Question [3]</h1>
+
+        <audio controls>
+            <source src="./1.mp3"/>
+        </audio>
+
+        <button id="play">▶️</button>
+
+        <button id="pause">⏸</button>
+
+        <button id="stop">⏹</button>
+
+        <button id="mute">🔇</button>
+
+        <p>Volume</p>
+        <input type="range" min="0" max="1"  step=".1" id="volume" value="1"/>
+
+        <p>Duration</p>
+        <input type="range" min="0" max="" id="duration" value="0"/>
+
+        <p>Speed</p>
+        <input type="range" min=".5" max="2" id="rate" value="1" step=".1"/>
+
+    </div>
+
+
+    <div id="Q4">
+
+        <h1>Question [4]</h1>
+        <!-- First Number -->
+        <input type="number" id="numInput">
+
+        <!-- Second Number -->
+        <input type="range" id="rangeInput" min="0" max="30" step="1" value="0">
+
+        <!-- Result -->
+        <p id="result"></p>
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
